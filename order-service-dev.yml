@@ -9,7 +9,7 @@ order:
 
   discount:
     enabled: true
-    percentage: 10
+    percentage: 20
 
 message:
   welcome: "Welcome Order Service - loaded from GitHub via Config Server"
