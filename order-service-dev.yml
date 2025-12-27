@@ -1,2 +1,15 @@
+order:
+  rules:
+    max-amount: 50000
+    min-quantity: 1
+    allowed-products:
+      - MOBILE
+      - LAPTOP
+      - TV
+
+  discount:
+    enabled: true
+    percentage: 10
+
 message:
-  welcome: Welcome from DEV environment
+  welcome: "Welcome Order Service - loaded from GitHub via Config Server"
